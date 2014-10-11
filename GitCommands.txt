@@ -25,6 +25,9 @@ fork
 -------------------------
 GIT CMD-
 
+0. First pull changes from repo - 
+git pull origin master
+
 1. add file to index for git to monitor changes to that file
 cmd-
 git add . (all new files)
