@@ -1,0 +1,66 @@
+GIT (local) -> version control software
+git local reository - repo
+git config --global user.name, user.email
+git config --list
+---------------------
+GITHUB (remote) - webbased hosting service to deal with repos on web
+
+allows push,pull : local repositories -> remote repositories
+
+allows to share projects
+-------------------------
+CREATING GITHUB REPO
+
+1. start from stratch
+2. fork another user's repo
+
+start - 
+got to dir
+1. git init
+2. git remote add origin https://github.com/ccpallavi/test-repo.git
+
+fork
+1. fork
+2. git clone url
+-------------------------
+GIT CMD-
+
+origin is the remote repo
+master is the local repo
+
+0. First pull changes from repo - 
+git pull origin master
+
+1. add file to index for git to monitor changes to that file
+cmd-
+git add . (all new files)
+git add -u (update filenames,delete)
+git add -A (both abv)
+
+
+2. commit to local repo
+cmd -> git commit -m "msg"
+
+3. push to remote repo
+cmd -> git push origin master
+
+Branches - another version of same dir
+cmd -> git checkout -b branchname
+
+to see d branch u r on 
+cmd -> git branch
+
+go back to master branch
+cmd -> git checkout master
+
+"Compare and pull" - to merge
+you'll get notification
+-----------------------
+MARKDOWN (github, R studio) - a text file formatted in simple way
+
+.md file. Example: readme.md
+
+## secondaryheadig
+### tertiaryheadig
+* first item in unordered list
+* second item in unordered list
