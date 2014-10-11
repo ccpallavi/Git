@@ -25,6 +25,9 @@ fork
 -------------------------
 GIT CMD-
 
+origin is the remote repo
+master is the local repo
+
 0. First pull changes from repo - 
 git pull origin master
 
@@ -39,7 +42,7 @@ git add -A (both abv)
 cmd -> git commit -m "msg"
 
 3. push to remote repo
-cmd -> git push
+cmd -> git push origin master
 
 Branches - another version of same dir
 cmd -> git checkout -b branchname
